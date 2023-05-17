@@ -1,0 +1,28 @@
+{
+  "name": "lin101-phonetics",
+  "version": "1.0.0",
+  "description": "��#\u0000l\u0000i\u0000n\u00001\u00000\u00001\u0000-\u0000p\u0000h\u0000o\u0000n\u0000e\u0000t\u0000i\u0000c\u0000s\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebplane/lin101-phonetics.git"
+  },
+  "author": "rebplane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rebplane/lin101-phonetics/issues"
+  },
+  "homepage": "https://github.com/rebplane/lin101-phonetics#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
