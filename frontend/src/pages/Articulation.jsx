@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 
-function Home() {
+function Articulation() {
     return (
-        <div className="home">
+        <div className="articulation">
             <Header/>
-            <h1>Home</h1>
+            <h1>Articulation</h1>
         </div>
     )
 }
 
-export default Home
+export default Articulation

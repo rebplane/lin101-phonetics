@@ -11,7 +11,7 @@ function Header() {
     return (
         <Navbar variant="light" bg="light" expand="lg">
           <Container fluid>
-            <Navbar.Brand href="#home">LIN101 IPA</Navbar.Brand>
+            <Navbar.Brand href="/">LIN101 IPA</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-dark" />
             <Navbar.Collapse id="navbar-dark">
               <Nav>
@@ -20,9 +20,9 @@ function Header() {
                   title="Exercises"
                   menuVariant="light"
                 >
-                  <NavDropdown.Item href="#action/3.1">Articulation</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2"> IPA to English </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3"> English to IPA </NavDropdown.Item>
+                  <NavDropdown.Item href="/articulation">Articulation</NavDropdown.Item>
+                  <NavDropdown.Item href="/ipa-to-english"> IPA to English </NavDropdown.Item>
+                  <NavDropdown.Item href="/english-to-ipa"> English to IPA </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
