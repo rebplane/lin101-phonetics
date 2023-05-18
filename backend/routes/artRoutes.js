@@ -4,6 +4,6 @@ const { getRandomSymbol, getSymbolAnswer} = require('../controllers/artControlle
 
 router.get('/symbol', getRandomSymbol)
 
-router.get('/symbolanswer/:symbol', getSymbolAnswer)
+router.get('/symbolanswer/:id', getSymbolAnswer)
 
 module.exports = router
