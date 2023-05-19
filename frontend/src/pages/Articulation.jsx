@@ -5,11 +5,13 @@ import './Home.css';
 
 import Header from '../components/Header'
 import Vowel from '../components/Vowel';
+import Consonant from '../components/Consonant';
 
 function Articulation() {
     
     const [symbol, setSymbol] = useState({});
     const [vowelProperties, setVowelProperties] = useState({height: "", backness: "", roundness: ""})
+    const [consonantProperties, setConsonantProperties] = useState({voicing: "", place: "", manner: ""})
 
     useEffect(() => {
         getSymbol(setSymbol);
@@ -25,7 +27,7 @@ function Articulation() {
                     {/* {symbol.type === 'v' && <Vowel symbol={symbol} properties={vowelProperties} setProperties={setVowelProperties}></Vowel>} */}
                 </div>
                 <div className="consonant">
-                    
+                    <Consonant symbol={symbol} properties={consonantProperties} setProperties={setConsonantProperties}/>
                 </div>
             </div>
         </div>
