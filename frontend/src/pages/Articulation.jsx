@@ -9,6 +9,7 @@ import Vowel from '../components/Vowel';
 function Articulation() {
     
     const [symbol, setSymbol] = useState({});
+    const [vowelProperties, setVowelProperties] = useState({height: "", backness: "", roundness: ""})
 
     useEffect(() => {
         getSymbol(setSymbol);
@@ -21,8 +22,10 @@ function Articulation() {
                 <h1><u>Articulation</u></h1>
                 <h1 className="symbol">{symbol.symbol}</h1>
                 <div className="vowel">
-                    {symbol.type === 'v' && <Vowel id={symbol._id} key={symbol._id} symbol={symbol}></Vowel>}
-                    <p>{symbol.type}</p>
+                    {/* {symbol.type === 'v' && <Vowel symbol={symbol} properties={vowelProperties} setProperties={setVowelProperties}></Vowel>} */}
+                </div>
+                <div className="consonant">
+                    
                 </div>
             </div>
         </div>
