@@ -1,5 +1,13 @@
-.home {
+.home, .articulation {
     width: 70%;
     margin: auto;
     margin-top: 3rem;
+}
+
+.articulation {
+    text-align: center;
+}
+
+.symbol {
+    margin: 2rem;
 }
