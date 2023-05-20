@@ -6,6 +6,7 @@ function IPAToEnglish() {
         <div className="ipa-to-english">
             <Header/>
             <h1>IPA to English</h1>
+            <p>Coming soon</p>
         </div>
     )
 }
