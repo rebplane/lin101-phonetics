@@ -24,10 +24,10 @@ function Articulation() {
                 <h1><u>Articulation</u></h1>
                 <h1 className="symbol">{symbol.symbol}</h1>
                 <div className="vowel">
-                    {/* {symbol.type === 'v' && <Vowel symbol={symbol} properties={vowelProperties} setProperties={setVowelProperties}></Vowel>} */}
+                    {symbol.type === 'v' && <Vowel symbol={symbol} properties={vowelProperties} setProperties={setVowelProperties}></Vowel>}
                 </div>
                 <div className="consonant">
-                    <Consonant symbol={symbol} properties={consonantProperties} setProperties={setConsonantProperties}/>
+                    {symbol.type === 'c' && <Consonant symbol={symbol} properties={consonantProperties} setProperties={setConsonantProperties}/>}
                 </div>
             </div>
         </div>

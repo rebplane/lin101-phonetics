@@ -50,6 +50,34 @@ function Consonant({properties, setProperties}) {
                     <option value=""></option>  
                     <option value="bilabial">bilabial</option>       
                     <option value="labialdental">labialdental</option>    
+                    <option value="dental">dental</option>  
+                    <option value="alveolar">alveolar</option>  
+                    <option value="postalveolar">postalveolar</option> 
+                    <option value="retroflex">retroflex</option>  
+                    <option value="palatal">palatal</option>  
+                    <option value="velar">velar</option>  
+                    <option value="uvular">uvular</option>  
+                    <option value="glottal">glottal</option>  
+                    <option value="labial-velar">labial-velar</option>
+                    </Form.Select>
+                </Form.Group>
+
+                <h3>Manner of Articulation</h3>
+                <Form.Group controlId="manner">
+                    <Form.Select
+                    name="manner"
+                    value={properties.manner}
+                    onChange={onChange}
+                    >
+                    <option value=""></option>
+                    <option value="oral stop">oral stop</option>
+                    <option value="fricative">fricative</option>
+                    <option value="affricate">affricate</option>
+                    <option value="nasal">nasal</option>
+                    <option value="flap/tap">flap/tap</option>
+                    <option value="trill">trill</option>
+                    <option value="lateral">lateral</option>
+                    <option value="approximant">approximant</option>
                     </Form.Select>
                 </Form.Group>
 
