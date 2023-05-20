@@ -11,3 +11,18 @@
 .symbol {
     margin: 2rem;
 }
+
+.btn {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.correct {
+    color: green;
+    margin-top: 2rem;
+}
+
+.incorrect {
+    color: red;
+    margin-top: 2rem;
+}

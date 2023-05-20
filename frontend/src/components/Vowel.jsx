@@ -1,9 +1,9 @@
-import { React, useState, useEffect }from 'react'
+import React from 'react'
 import Form from 'react-bootstrap/Form';
 import './Form.css'
 
 function Vowel({properties, setProperties}) {
-    
+
     const handleChange = e => {
         e.persist();
 
@@ -84,26 +84,26 @@ function Vowel({properties, setProperties}) {
                 </Form.Group>
 
                 <h3>Rounding</h3>
-                <Form.Group controlId='roundness' className="mb-2">
+                <Form.Group controlId='rounding' className="mb-2">
                     <Form.Check
                         inline
                         label="rounded"
                         value="rounded"
-                        name="roundness"
+                        name="rounding"
                         type="radio"
                         id="roundness-1"
                         onChange={handleChange}
-                        checked={properties.roundness === "rounded"}
+                        checked={properties.rounding === "rounded"}
                     />
                     <Form.Check
                         inline
                         label="unrounded"
                         value="unrounded"
-                        name="roundness"
+                        name="rounding"
                         type="radio"
                         id="roundness-2"
                         onChange={handleChange}
-                        checked={properties.roundness === "unrounded"}
+                        checked={properties.rounding === "unrounded"}
                     />
                 </Form.Group>
             </Form>

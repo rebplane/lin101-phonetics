@@ -1,4 +1,4 @@
-import { React, useState, useEffect }from 'react'
+import React from 'react'
 import Form from 'react-bootstrap/Form';
 import './Form.css'
 
@@ -41,10 +41,10 @@ function Consonant({properties, setProperties}) {
                 </Form.Group>
 
                 <h3>Place of Articulation</h3>
-                <Form.Group controlId="place">
+                <Form.Group controlId="place_of_articulation">
                     <Form.Select
-                    name="place"
-                    value={properties.place}
+                    name="place_of_articulation"
+                    value={properties.place_of_articulation}
                     onChange={onChange}
                     >
                     <option value=""></option>  
@@ -63,14 +63,14 @@ function Consonant({properties, setProperties}) {
                 </Form.Group>
 
                 <h3>Manner of Articulation</h3>
-                <Form.Group controlId="manner">
+                <Form.Group controlId="manner_of_articulation">
                     <Form.Select
-                    name="manner"
-                    value={properties.manner}
+                    name="manner_of_articulation"
+                    value={properties.manner_of_articulation}
                     onChange={onChange}
                     >
                     <option value=""></option>
-                    <option value="oral stop">oral stop</option>
+                    <option value="stop">oral stop</option>
                     <option value="fricative">fricative</option>
                     <option value="affricate">affricate</option>
                     <option value="nasal">nasal</option>
