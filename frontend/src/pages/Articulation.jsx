@@ -48,7 +48,7 @@ function Articulation() {
     const onNext = e => {
         // Reset flags and states
         setVowelProperties({height: "", backness: "", rounding: ""})
-        setConsonantProperties({voicing: "", place: "", manner: ""})
+        setConsonantProperties({voicing: "", place_of_articulation: "", manner_of_articulation: ""})
         setIsAnswered(false)
         setIsCorrect(null)
         setFlagNext(!flagNext)
