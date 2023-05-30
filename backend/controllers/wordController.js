@@ -1,16 +1,16 @@
 const asyncHandler = require('express-async-handler')
-const Art = require('../models/artModel')
+const Word = require('../models/wordModel')
 
 // @route GET /api/symbol
-const getRandomSymbol = asyncHandler(async(req, res) => {
+const getRandomWord = asyncHandler(async(req, res) => {
     // Get one random document from the collection
-    const symbol = await Art.aggregate(
+    const word = await Word.aggregate(
         [ { $sample: { size: 1 } } ]
      )
 
-    res.status(200).json(symbol)
+    res.status(200).json(word)
 })
 
 module.exports = {
-    getRandomSymbol,
+    getRandomWord,
 }
