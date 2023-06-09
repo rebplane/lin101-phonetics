@@ -22,7 +22,7 @@ function Header() {
                 >
                   <NavDropdown.Item href="/articulation">Articulation</NavDropdown.Item>
                   <NavDropdown.Item href="/ipa-to-english"> IPA to English </NavDropdown.Item>
-                  <NavDropdown.Item href="/english-to-ipa"> English to IPA </NavDropdown.Item>
+                  <NavDropdown.Item href="/syllabification"> Syllabification </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

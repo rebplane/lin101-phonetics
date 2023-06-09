@@ -15,7 +15,7 @@ function Home() {
                     <br/>
                     <li><a href="/ipa-to-english">IPA to English</a>: Use this exercise to practice translating IPA words to English. You will be given a word in IPA symbols and will be given choices to translate the word into English</li>
                     <br/>
-                    <li><a href="/english-to-ipa">English to IPA</a>: Use this exercise to practice translating English to IPA. You will be given a word in English, and will be given choices to translate the word into IPA.</li>
+                    <li><a href="/syllabification">Syllabification</a>: Use this exercise to practice syllabifying English words. You will be given a word, and you will need to figure out which syllable is stressed.</li>
                 </ul>
             </div>
         </div>

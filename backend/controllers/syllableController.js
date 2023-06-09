@@ -9,6 +9,8 @@ const getRandomSyllable = asyncHandler(async(req, res) => {
     )
 
     var syl_obj = syllable[0]
+
+    syl_obj.correct = syl_obj.ipa_transcription.replaceAll('/', '')
     
     syl_obj.ipa_transcription = syl_obj.ipa_transcription.replaceAll('/', '').split(".")
 
