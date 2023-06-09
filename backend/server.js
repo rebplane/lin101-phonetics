@@ -14,6 +14,7 @@ connectDB()
 // API routes
 app.use('/api/art', jsonParser, require('./routes/artRoutes'))
 app.use('/api/word', jsonParser, require('./routes/wordRoutes'))
+app.use('/api/syllable', jsonParser, require('./routes/syllableRoutes'))
 
 // Serve frontend
 if (process.env.NODE_ENV == 'production') {
