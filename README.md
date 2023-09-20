@@ -1,5 +1,4 @@
 # LIN101 Creative Project
-Student Name (student number): Rebecca Nhan (1007299576)
 
 # Link to Resource
 For my creative project, I created a web application, that can be accessed here: https://lin101-phonetics.herokuapp.com/
